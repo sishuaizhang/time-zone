@@ -1,12 +1,21 @@
 # 时区（time-zone）常见问题总结
 
-### 1 经纬度换夏令时时区
+### 1 概念
 
-给定`经纬度`得出`夏令时时区`和`具体夏令时UTC偏移量`
+参考 https://www.iana.org/time-zones/repository/tz-link.html
+
+|名词|英文|解释|英文解释|示例|
+|---|---|---|---|---|
+|地区名称|Region Name(Location Name)|用一个地区最大的城市来命名一个区域|Locations are identified by continent or ocean and then by the name of the location, which is typically the largest city within the region. |America/New_York
+|时区ID|Region Name(Location Name)|用一个地区最大的城市来命名一个区域|Each location in the tz database represents a region where all clocks keeping local time have agreed since 1970 |America/New_York
+
+### 2 经纬度换时区
+
+给定`经纬度`得出`时区名称`和`具体时区UTC偏移量`
 
 https://github.com/go-utils/utils/ 的GetTimeZoneByLatlong方法(golang库)
 
-#### 1.1 `经纬度`到`时区ID`的转换
+#### 2.1 `经纬度`到`地区名称`的转换
 
 如：
 
@@ -21,7 +30,7 @@ https://github.com/go-utils/tzlookup (golang的库)  [2017a]
 https://github.com/bradfitz/latlong (golang的库)   [2016d]
 
 
-#### 1.2 `时区ID`到`具体夏令时偏移量`的转换
+#### 2.2 `时区ID`到`具体夏令时偏移量`的转换
 
 如： 
 
