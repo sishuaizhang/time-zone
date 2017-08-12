@@ -4,7 +4,7 @@
 
 给定`经纬度`得出`夏令时时区`和`具体夏令时UTC偏移量`
 
-https://github.com/go-utils/utils/@GetTimeZoneByLatlong(golang库)
+https://github.com/go-utils/utils/ 的GetTimeZoneByLatlong方法(golang库)
 
 #### 1.1 `经纬度`到`时区ID`的转换
 
