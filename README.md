@@ -15,7 +15,7 @@
 
 https://github.com/go-utils/utils/ 的GetTimeZoneByLatlong方法(golang库)
 
-#### 2.1 `经纬度`到`地区名称`的转换
+#### 2.1 `经纬度`到`时区ID`的转换
 
 如：
 
