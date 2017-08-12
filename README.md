@@ -31,8 +31,27 @@ America/New_York +  2016年10月26日  -->  UTC - 4:00
 https://golang.org/pkg/time/#LoadLocation
 
 ```golang
-location, _:= time.LoadLocation("America/New_York")
-zone, offset := time.Now().In(location).Zone()
+package main
+
+import (
+	"fmt"
+	"time"
+
+	"github.com/bradfitz/latlong"
+)
+
+func main() {
+
+	location, _ := time.LoadLocation(latlong.LookupZoneName(42.7235, -73.6931))
+	zone, offset := time.Now().In(location).Zone()
+
+	fmt.Print(zone, "\n")
+	fmt.Print(offset / 3600)
+}
+
+//std out
+//EDT
+//-4
 ```
 
 https://www.iana.org/time-zones/repository/tz-link.html
