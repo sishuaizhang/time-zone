@@ -4,7 +4,7 @@
 参考 https://www.iana.org/time-zones/repository/tz-link.html
 
 |名词|英文|解释|英文解释|示例|
-|---|---|---|---|---|
+|---|---|---|---|------|
 |地区名称|Zone Name(Location Name)|用一个地区最大的城市来命名一个地区,被写在IANA时区数据库中|The name is taken to be a location name corresponding to a file in the IANA Time Zone database, Each location in the tz database represents a region where all clocks keeping local time have agreed since 1970,Locations are identified by continent or ocean and then by the name of the location, which is typically the largest city within the region.  |America/New_York|
 |时区ID|Time Zone ID|用地区名称表示时区ID| |America/New_York|
 |时区名称简写|Time Zone Name|时区名称分为STD和DST|||
