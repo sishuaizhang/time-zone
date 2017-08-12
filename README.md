@@ -4,11 +4,13 @@
 
 给定`经纬度`得出`夏令时时区`和`具体夏令时UTC偏移量`
 
+https://github.com/go-utils/utils/@GetTimeZoneByLatlong(golang库)
+
 #### 1.1 `经纬度`到`时区ID`的转换
 
 如：
 
-(42.7235, -73.6931)   ---->   America/New_York
+(42.7235, -73.6931)   ---->   America/New_York [Location Name]
 
 有 http://efele.net/maps/tz/(不再维护)，https://github.com/evansiroky/timezone-boundary-builder 提供的`经纬度`到`时区ID`的转换数据(由于不同国家政治策略的变动，这个数据经常更新) 
 
