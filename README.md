@@ -31,10 +31,8 @@ America/New_York +  2016年10月26日  -->  UTC - 4:00
 https://golang.org/pkg/time/#LoadLocation
 
 ```golang
-
 location, _:= time.LoadLocation("America/New_York")
 zone, offset := time.Now().In(location).Zone()
-    
 ```
 
 https://www.iana.org/time-zones/repository/tz-link.html
