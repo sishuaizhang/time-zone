@@ -29,11 +29,8 @@ https://github.com/go-utils/utils/ 的GetTimeZoneByLatlong方法(golang库)
 
 有 http://efele.net/maps/tz/(不再维护)，https://github.com/evansiroky/timezone-boundary-builder 提供的`经纬度`到`时区ID`的转换数据(由于不同国家政治策略的变动，这个数据经常更新) 
 
-https://github.com/darkskyapp/tz-lookup (nodejs库) [2017a]
+各语言的库 https://github.com/evansiroky/timezone-boundary-builder#lookup-libraries
 
-https://github.com/go-utils/tzlookup (golang的库)  [2017a]
-
-https://github.com/bradfitz/latlong (golang的库)   [2016d]
 
 
 #### 2.2 `时区ID`到`具体夏令时偏移量`的转换
