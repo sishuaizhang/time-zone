@@ -4,6 +4,11 @@
 
 https://github.com/sishuai/time-zone/blob/master/time-zone-concept.md
 
+#### 1.1 时区列表
+
+https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/rrun_svr_timezones.html
+
+
 ### 2 经纬度换时区
 
 给定`经纬度`得出`时区名称`和`具体时区UTC偏移量`
