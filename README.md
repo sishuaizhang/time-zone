@@ -10,6 +10,7 @@ https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd
 
 https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
 
+https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 ### 2 经纬度换时区
 
