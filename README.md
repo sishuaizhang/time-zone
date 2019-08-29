@@ -12,6 +12,9 @@ https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
 
 https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+https://en.wikipedia.org/wiki/Lists_of_time_zones
+
+
 ### 2 经纬度换时区
 
 给定`经纬度`得出`时区名称`和`具体时区UTC偏移量`
