@@ -8,6 +8,8 @@ https://github.com/sishuai/time-zone/blob/master/time-zone-concept.md
 
 https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/rrun_svr_timezones.html
 
+https://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
+
 
 ### 2 经纬度换时区
 
